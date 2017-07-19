@@ -97,6 +97,13 @@
 
         <!-- TODO (1) Add a LinearLayout with the permissions CheckBox and UI -->
 
+        <CheckBox
+            android:id="@+id/ringer_permission_checkbox"
+            android:text="Ringer Permission"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onRingerPermissionClicked"/>
+
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
